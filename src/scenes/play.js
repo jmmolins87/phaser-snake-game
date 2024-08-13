@@ -8,7 +8,6 @@ class Play extends Phaser.Scene {
     }
 
     preload() {
-        console.log('Escena Play');
         this.snake = new Snake(this);
         this.comida = new Comida(this);
     }

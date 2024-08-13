@@ -5,10 +5,6 @@ class Gameover extends Phaser.Scene {
         super('Gameover');
     }
 
-    preload() {
-        console.log('Escena Gameover create');
-    }
-
     create() {
         this.scene.stop('UI');
         this.add.dynamicBitmapText(

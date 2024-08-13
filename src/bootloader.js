@@ -7,7 +7,6 @@ class Bootloader extends Phaser.Scene {
     }
 
     preload() {
-        console.log('Escena Bootloader preload');
         this.load.image('cuerpo', './../assets/img/body.png');
         this.load.image('comida', './../assets/img/food.png');
         this.load.image('tablero', './../assets/img/tablero.png');

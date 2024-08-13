@@ -5,10 +5,6 @@ class Menu extends Phaser.Scene {
         super('Menu');
     }
 
-    preload() {
-        console.log('Escena Menu preload');
-    }
-
     create() {
         this.add.image(
             this.sys.game.config.width/2, 
